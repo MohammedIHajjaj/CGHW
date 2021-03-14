@@ -1,0 +1,31 @@
+﻿Build started 3/14/2021 9:55:50 PM.
+     1>Project "D:\PPUViewer2021\PPUViewer2021_bin\CGFrameWork.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd D:\PPUViewer2021\PPUViewer2021_bin
+         if %errorlevel% neq 0 goto :cmEnd
+         D:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/PPUViewer2021/PPUViewer2021_bin/CMakeFiles/CGFrameWork_autogen.dir/AutogenInfo.json Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\PPUViewer2021\PPUViewer2021_bin /ID:\PPUViewer2021\PPUViewer2021 /ID:\PPUViewer2021\PPUViewer2021_bin\CGFrameWork_autogen\include_Debug /IC:\Qt\Qt5.7.0\5.7\msvc2013\include /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtWidgets /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtGui /IC:\Qt\Qt5.7.0\5.7\msvc2013\include\QtCore /I"C:\Qt\Qt5.7.0\5.7\msvc2013\.\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"CGFrameWork.dir\Debug\\" /Fd"CGFrameWork.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt D:\PPUViewer2021\PPUViewer2021\RenderWidget.cpp
+         RenderWidget.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PPUViewer2021\PPUViewer2021_bin\Debug\CGFrameWork.exe" /INCREMENTAL /NOLOGO C:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5Widgetsd.lib C:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5Guid.lib C:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/PPUViewer2021/PPUViewer2021_bin/Debug/CGFrameWork.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/PPUViewer2021/PPUViewer2021_bin/Debug/CGFrameWork.lib" /MACHINE:X86 /SAFESEH  /machine:X86 CGFrameWork.dir\Debug\mocs_compilation.obj
+         CGFrameWork.dir\Debug\main.obj
+         CGFrameWork.dir\Debug\RenderWidget.obj
+         CGFrameWork.dir\Debug\PPUViewer.obj
+         CGFrameWork.vcxproj -> D:\PPUViewer2021\PPUViewer2021_bin\Debug\CGFrameWork.exe
+     1>Done Building Project "D:\PPUViewer2021\PPUViewer2021_bin\CGFrameWork.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09

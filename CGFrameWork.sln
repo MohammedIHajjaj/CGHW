@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CGFrameWork", "CGFrameWork.vcxproj", "{41C65E01-C414-38A5-9D59-1CC83FC06F6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{619AC15E-71D1-3A76-9B25-C5341DE1D62F} = {619AC15E-71D1-3A76-9B25-C5341DE1D62F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{619AC15E-71D1-3A76-9B25-C5341DE1D62F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41C65E01-C414-38A5-9D59-1CC83FC06F6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41C65E01-C414-38A5-9D59-1CC83FC06F6E}.Debug|Win32.Build.0 = Debug|Win32
+		{41C65E01-C414-38A5-9D59-1CC83FC06F6E}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{41C65E01-C414-38A5-9D59-1CC83FC06F6E}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{41C65E01-C414-38A5-9D59-1CC83FC06F6E}.Release|Win32.ActiveCfg = Release|Win32
+		{41C65E01-C414-38A5-9D59-1CC83FC06F6E}.Release|Win32.Build.0 = Release|Win32
+		{41C65E01-C414-38A5-9D59-1CC83FC06F6E}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{41C65E01-C414-38A5-9D59-1CC83FC06F6E}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{619AC15E-71D1-3A76-9B25-C5341DE1D62F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{619AC15E-71D1-3A76-9B25-C5341DE1D62F}.Debug|Win32.Build.0 = Debug|Win32
+		{619AC15E-71D1-3A76-9B25-C5341DE1D62F}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{619AC15E-71D1-3A76-9B25-C5341DE1D62F}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{619AC15E-71D1-3A76-9B25-C5341DE1D62F}.Release|Win32.ActiveCfg = Release|Win32
+		{619AC15E-71D1-3A76-9B25-C5341DE1D62F}.Release|Win32.Build.0 = Release|Win32
+		{619AC15E-71D1-3A76-9B25-C5341DE1D62F}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{619AC15E-71D1-3A76-9B25-C5341DE1D62F}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5311F33-7905-3B37-BA88-52079C24BF65}
+	EndGlobalSection
+EndGlobal
